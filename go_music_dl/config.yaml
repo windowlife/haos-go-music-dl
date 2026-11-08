@@ -1,1 +1,15 @@
-
+name: GoMusicDL Backend
+version: "1.0.0"
+slug: go_music_dl
+description: Go Music DL Web backend for the Songloft GoMusicDL plugin
+url: https://github.com/guohuiyuan/go-music-dl
+arch:
+  - amd64
+  - aarch64
+startup: application
+boot: auto
+init: false
+ports:
+  8080/tcp: 18080
+ports_description:
+  8080/tcp: GoMusicDL Web and search API
